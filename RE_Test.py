@@ -38,6 +38,8 @@ if __name__ == '__main__':
 
     #sub其参数中还有一个count参数，用来指定替换次数
     #下面打印出BIT:zipcode TSU:zipcodecava100089hjnjn，只替换两次，后面出现的满足正则表达式的字符串不再进行替换
-    print (re.sub(r'[1-9]\d{5}', ':zipcode', 'BIT100081 TSU100084cava100089hjnjn', count=2))
+    #print (re.sub(r'[1-9]\d{5}', ':zipcode', 'BIT100081 TSU100084cava100089hjnjn', count=2))
 
+    #compile函数会将一个正则表达式字符串编译为一个正则表达式规则，方便以后调用，这是面向对象的一种使用方法
+    regex = re.compile(r'[1-9]\d{5}')
 

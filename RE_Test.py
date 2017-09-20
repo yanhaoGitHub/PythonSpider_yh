@@ -1,4 +1,5 @@
-# -*-encoding=UTF-8-*-
+#-*- encoding=UTF-8 -*-
+#下面代码是验证re的常用属性及方法的测试案例
 #hello, python re!
 import re
 if __name__ == '__main__':

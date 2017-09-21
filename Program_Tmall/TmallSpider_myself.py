@@ -32,7 +32,7 @@ def printList(list):
 
 if __name__ == '__main__':
     goods = "书包"
-    dpth = 2
+    dpth = 2   #想爬取的页面深度
     start_url = "https://s.taobao.com/search?q=" + goods
     list = []
     for i in range(dpth):
